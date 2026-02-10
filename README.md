@@ -1,8 +1,7 @@
 # eatean.github.io
 
-<!DOCTYPE html>
 <html>
-<body style="background-color: rp-base;">
-  fuck you
-</body>
+  <div style="background-color: rp-base;">
+    test
+  </div>
 </html>
