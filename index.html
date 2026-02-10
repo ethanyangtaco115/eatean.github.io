@@ -1,6 +1,5 @@
 <html>
 
-
 <head>
   <link rel="stylesheet" href="assets/css/style.css">
   <style>
@@ -18,12 +17,59 @@
       min-height: 100%;
       background: var(--rp-base);
     }
-    
+
+    .title-text {
+      color: var(--rp-text);
+      font-family: "VT323", monospace !important;
+      font-size: 2.5rem;
+      font-weight: 600;
+      font-style: normal;
+      margin-bottom: 20px;
+    }
+
+    hr {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+    .photo-image {
+      border: 3px solid var(--rp-subtle);
+      border-radius: 1px;
+      max-width: 140%;
+      height: auto;
+      display: block;
+      margin: 20px;
+      margin-bottom: 4px;
+      margin-left: 4px;
+    }
+    .caption {
+      color: var(--rp-text);
+      font-family: "VT323", monospace !important;
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: normal;
+      margin-left: 4px;
+    }
   </style>
 </head>
 <!-- start of actual code !-->
-<div class="main-text">
-testing
+<div class="main-text" style="font-style: italic; letter-spacing: 5px; color: var(--rp-pine);">
+  eatean
 </div>
+<div class="title-text">
+  collections
+</div>
+<hr>
+<div class="main-text" class style="font-weight: 500; letter-spacing: 10px; color: var(--rp-love)">
+  photo
+</div>
+<img class="photo-image" src="assets\images\coast.jpg">
+<div class="caption">
+<span style="font-style: italic; font-weight: 700; font-size: 0.7rem; color: var(--rp-gold);">edited w/ lighroom</span><br>
+<span style="font-style: italic;">location:</span> ranchos palos verdes, ca <br>
+<span style="font-style: italic; font-size: 1rem;">camera:</span> motorola razr plus
+
+</div>
+
 
 </html>
