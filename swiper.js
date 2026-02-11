@@ -4,7 +4,4 @@ const swiper = new Swiper(".swiper", {
   grabCursor: true,
   autoHeight: true,
   loop: true,
-  mousewheel: {
-    invert: true,
-  },
 });
