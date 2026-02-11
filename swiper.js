@@ -3,5 +3,6 @@ const swiper = new Swiper(".swiper", {
   spaceBetween: 0,
   grabCursor: true,
   autoHeight: true,
-  loop: true,
+  loop: false,
+  mousewheel: true,
 });
