@@ -122,6 +122,21 @@
     photo
   </div>
 
+  <script>
+    window.addEventListener("load", () => {
+      const swiperEl = document.querySelector(".swiper");
+
+      if (swiperEl) {
+        setTimeout(() => {
+          swiperEl.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          });
+        }, 500); // delay (ms) — tweak if needed
+      }
+    });
+  </script>
+
   <!-- Slider main container -->
   <div class="swiper">
     <!-- Additional required wrapper -->

@@ -5,4 +5,7 @@ const swiper = new Swiper(".swiper", {
   autoHeight: true,
   loop: false,
   mousewheel: true,
+  sensitivity: 0.5,
+  releaseOnEdges: true
 });
+
